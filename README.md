@@ -28,3 +28,14 @@ example :
 >> let foo = bar + joe
 ```
 4. Output
+```shell
+>> let foo = bar + 1;
+{Type:LET Literal:let}
+{Type:IDENT Literal:foo}
+{Type:= Literal:=}
+{Type:IDENT Literal:bar}
+{Type:+ Literal:+}
+{Type:INT Literal:1}
+{Type:; Literal:;}
+```
+Of course, this code doesn't make any sense. Because, this is our first step, we just create the `lexer.go` we only tokenize the input.
